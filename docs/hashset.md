@@ -1,3 +1,10 @@
+https://leetcode.com/problems/design-hashset?envType=problem-list-v2&envId=array&difficulty=EASY
+
+# Problem: Design a HashSet without using any built-in hash table libraries.
+
+My own implementation, works in leetcode, but probably not the best solution.
+
+```js
 var MyHashSet = function () {
   this.set = [];
   this.map = {};
@@ -46,3 +53,4 @@ console.log(myHashSet);
 
 myHashSet.remove(2); // set = [1]
 console.log(myHashSet.contains(2)); // return False, (already removed)
+```

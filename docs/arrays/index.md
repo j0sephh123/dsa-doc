@@ -12,7 +12,5 @@
 
 ### Todo
 
-- combinations - order doesn't matter
-- permutations - order matters
 - subset generation
 - generate all combinations of size k
